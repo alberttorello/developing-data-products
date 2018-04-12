@@ -1,0 +1,29 @@
+Interactive analysis of car data
+========================================================
+author: Albert Torelló
+date: April 12th, 2018
+autosize: true
+
+Introduction
+========================================================
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+
+The analysis aims to fina a correlation between **mpg** and the other variables.
+
+
+Data summary
+=======================================================
+```{r}
+summary(mtcars)
+```
+
+Correlation
+=======================================================
+```{r}
+pairs(mtcars)
+```
+
+Repository
+=====================================================
+- https://github.com/alberttorello/developing-data-products
+- 
